@@ -1,6 +1,6 @@
 import React , { useState } from "react";
 import styles from "./Navbar.module.css";
-
+import { FaBars } from "react-icons/fa6";
 
 function Navbar() {
 
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-      
+        < FaBars className={styles.bars} onClick={handleToggle} />
         {isToggle ? (
           <>
             <ul className={styles.mobile_menu}>
