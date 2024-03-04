@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+
 import { TypeAnimation } from "react-type-animation";
 
 
@@ -33,19 +33,16 @@ function Hero() {
             </p>
             <ul className={styles.hero_social}>
               <li>
-                <a href="">
-                  <FaGithub />
-                </a>
+                
+                
               </li>
               <li>
-                <a href="">
-                  <FaLinkedinIn />
-                </a>
+                
+                
               </li>
               <li>
-                <a href="">
-                  <FaFacebookF />
-                </a>
+                
+                
               </li>
             </ul>
           </div>
