@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Contact.module.css'
 import { MdAlternateEmail, MdCall } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
-import { FaInstagram } from 'react-icons/fb6';
+import { FaInstagram } from 'react-icons/fa6';
 
 function Contact() {
   return (
