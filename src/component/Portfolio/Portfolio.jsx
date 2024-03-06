@@ -1,33 +1,41 @@
 import React from 'react'
 import styles from './Portfolio.module.css'
 
+const user ={
+  img1:'Dota-2-Logo.png',
+  img2:'apex.png',
+  img3:'valo.jpg',
+  img4:'csgo.png',
+  img5:'lol.jpg',
+  img6:'stra.png'
+}
 function Portfolio() {
   return (
     <div className={styles.port_con}>
       <h3 className={styles.port_title}>My Favorite Game forever</h3>
       <div className={styles.port_list}>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/Dota-2-Logo.png" alt="" />
+            <img src={user.img1} alt="" />
             <p>dota2: dog game.</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/apex.png" alt="" />
+            <img src={user.img2} alt="" />
             <p>apex: im done with this.</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/valo.jpg" alt="" />
+            <img src={user.img3} alt="" />
             <p>valorant:this too</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/csgo.png" alt="" />
+            <img src={user.img4} alt="" />
             <p>csgo: old but gold</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/lol.jpg" alt="" />
+            <img src={user.img5} alt="" />
             <p>lol: dont play!</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/component/Portfolio/stra.png" alt="" />
+            <img src={user.img6} alt="" />
             <p>stardew valley: best game forever</p>
         </div>
       </div>
