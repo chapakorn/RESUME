@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
 
-const user={
-  img1:'src/component/Testimonials/423944170_367716709509322_5312244892590336853_n.jpg',
-  img2:'src/component/Testimonials/goodboy.png',
-  img3:'src/component/Testimonials/sleepboy.jpg'
+const ter={
+  img11:'423944170_367716709509322_5312244892590336853_n.jpg',
+  img12:'goodboy.png',
+  img13:'sleepboy.jpg'
 }
 
 function Testimonials() {
@@ -17,7 +17,7 @@ function Testimonials() {
           this is a best friend(for who?).
           </p>
           <img
-            src={user.img1}
+            src={ter.img11}
           />
           <h4></h4>
           <p className={styles.bio}></p>
@@ -27,7 +27,7 @@ function Testimonials() {
             act art smart dog.
           </p>
           <img
-            src={user.img2}
+            src={ter.img12}
           />
           <h4>jeng radit</h4>
           <p className={styles.bio}>Web Developer</p>
@@ -37,7 +37,7 @@ function Testimonials() {
           but sometime he so sleepy.
           </p>
           <img
-            src={user.img3}
+            src={ter.img13}
           />
           <h4></h4>
           <p className={styles.bio}></p>
