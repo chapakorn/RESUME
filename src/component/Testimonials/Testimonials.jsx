@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
 
+const user={
+  img1:'src/component/Testimonials/423944170_367716709509322_5312244892590336853_n.jpg',
+  img2:'src/component/Testimonials/goodboy.png',
+  img3:'src/component/Testimonials/sleepboy.jpg'
+}
+
 function Testimonials() {
   return (
     <div className={styles.testi_con}>
@@ -11,8 +17,7 @@ function Testimonials() {
           this is a best friend(for who?).
           </p>
           <img
-            src="423944170_367716709509322_5312244892590336853_n.jpg"
-            alt=""
+            src={user.img1}
           />
           <h4></h4>
           <p className={styles.bio}></p>
@@ -22,8 +27,7 @@ function Testimonials() {
             act art smart dog.
           </p>
           <img
-            src="goodboy.png"
-            alt=""
+            src={user.img2}
           />
           <h4>jeng radit</h4>
           <p className={styles.bio}>Web Developer</p>
@@ -33,8 +37,7 @@ function Testimonials() {
           but sometime he so sleepy.
           </p>
           <img
-            src="sleepboy.jpg"
-            alt=""
+            src={user.img3}
           />
           <h4></h4>
           <p className={styles.bio}></p>
