@@ -7,27 +7,27 @@ function Portfolio() {
       <h3 className={styles.port_title}>My Favorite Game forever</h3>
       <div className={styles.port_list}>
         <div className={styles.port_items}>
-            <img src="Dota-2-Logo.png" alt="" />
+            <img src="src/component/Portfolio/Dota-2-Logo.png" alt="" />
             <p>dota2: dog game.</p>
         </div>
         <div className={styles.port_items}>
-            <img src="apex.png" alt="" />
+            <img src="src/component/Portfolio/apex.png" alt="" />
             <p>apex: im done with this.</p>
         </div>
         <div className={styles.port_items}>
-            <img src="valo.jpg" alt="" />
+            <img src="src/component/Portfolio/valo.jpg" alt="" />
             <p>valorant:this too</p>
         </div>
         <div className={styles.port_items}>
-            <img src="csgo.png" alt="" />
+            <img src="src/component/Portfolio/csgo.png" alt="" />
             <p>csgo: old but gold</p>
         </div>
         <div className={styles.port_items}>
-            <img src="lol.jpg" alt="" />
+            <img src="src/component/Portfolio/lol.jpg" alt="" />
             <p>lol: dont play!</p>
         </div>
         <div className={styles.port_items}>
-            <img src="stra.png" alt="" />
+            <img src="src/component/Portfolio/stra.png" alt="" />
             <p>stardew valley: best game forever</p>
         </div>
       </div>
